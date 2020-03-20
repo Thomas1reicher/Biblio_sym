@@ -1,0 +1,88 @@
+.image{
+margin-top: 10%;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+
+}
+.centre{
+
+     margin-left:auto ;
+     margin-right:auto ;
+     width: 150px;
+
+ }
+.centre{
+
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 140px;
+    text-align: center;
+
+}
+.body{
+
+   background-color: whitesmoke;
+
+}
+.tbl{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.livre{
+    margin-top: 5%;
+   border: solid 2px black;
+    border-radius: 5%;
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 500px;
+    text-align: center;
+
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.centre-titre{
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 250px;
+    text-align: center;
+}
+.btn-supp{
+
+    background-color: #C82829;
+    width: 100px
+;
+}
+.add{
+
+    background-color:seagreen;
+}
+
+.centre-form{
+
+    text-align: center;
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 550px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5%;
+}
+html{
+font-family: Andale Mono, monospace;
+
+}
+.radius{
+    border-radius: 5%;
+}
+.centre-rech{
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 350px;
+    text-align: center;
+}

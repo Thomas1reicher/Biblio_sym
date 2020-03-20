@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <body class="tbl">
+    <!-- Navbar -->
+    <!-- Sidebar menu-->
+
+
+
+
+
+
+
+
+
+<h1 class="centre-titre"> Liste des Livres</h1>
+    <div class="centre-rech">
+<input  id="recherche" type="text"/>
+    <button onclick="recherche()"> Recherche</button>
+    </div>
+                    {% for livre in livres %}
+
+                        <div class="livre" name="livre" id="{{ livre.titre }}">
+                           <img class="image"  src="{{livre.image}}"></td>
+                            <h1>{{livre.titre}}</h1>
+                            <h2>{{livre.auteur}}</h2>
+                            <p>{{livre.synopsis}}</p>
+
+
+
+                            <a  href={{ path('livre_delete', {'id': livre.id, }) }} >
+                            <i class="fa fa-minus fa-2x " style=" size:15px ;color: #C82829"></i>
+                            </a>
+                        </div>
+
+
+
+
+
+                    {% endfor %}
+
+
+
+
+<div class="centre">
+    <a href="/insert/" ><i class="fa fa-plus-circle  fa-5x" style=" color: seagreen ; margin-top: 10%;"></i></a>
+</div>
+
+
+    </body>
+
+{% endblock %}
+
+
